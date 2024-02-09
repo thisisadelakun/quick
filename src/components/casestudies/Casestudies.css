@@ -1,0 +1,29 @@
+.case-col {
+    background-image: url('../../assets/logos_bg1920.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: darken !important;
+    height: 100%;
+    width: 100%;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media screen and (min-width:990px) {
+    .case-col {
+        padding: 6rem 0;
+        gap: 4rem;
+    }
+
+    .case-box {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}

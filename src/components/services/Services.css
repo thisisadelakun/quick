@@ -1,0 +1,118 @@
+.service-col {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/Fist-symbol-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.service_icon {
+    width: fit-content;
+    background-color: #ffcfcf38;
+    border-radius: 100vmax;
+    border: 2px solid rgba(128, 128, 128, 0.177);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.service_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.service_txt p {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.886);
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.service_txt small {
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    color: rgba(32, 32, 32, 0.558);
+}
+
+.service-btn button{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 2px solid rgba(128, 128, 128, 0.177);
+    color: rgba(6, 6, 6, 0.462);
+}
+.hireus-btn{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hireus-btn button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -1px !important;
+}
+
+.hireus-btn button{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem !important;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 2rem;
+    background-color: #8B0000;
+    color: ivory;
+    border: none;
+    border-radius: 2px;
+}
+
+.hirecall{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+@media screen and (min-width:990px) {
+    .service-col {
+        padding: 8rem 0;
+    }
+
+    .service-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+}

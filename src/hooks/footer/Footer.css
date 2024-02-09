@@ -1,0 +1,91 @@
+.footer_col {
+    width: 100%;
+    height: 100%;
+    background-color: #252525;
+}
+
+.footer_up {
+    background-image: url('../../assets/valves-overlay.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.footer_up p {
+    color: #e7e7e7;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+.footer_below {
+    padding: 1rem 0.2rem;
+    color: #9e9e9e;
+    font-size: 13px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.footer_below a,
+.footer_up a {
+    color: #d0d0d0 !important;
+    text-decoration: none;
+
+}
+
+.footer_below a:hover,
+.footer_up a:hover {
+    color: #9e9e9e !important;
+}
+
+.mapss {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem auto !important;
+    justify-content: center;
+}
+
+.mapss p {
+    font-size: 20px;
+    color: #d0d0d0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.mapss h6 {
+    overflow: hidden !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.innermap {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: left;
+}
+
+@media screen and (min-width:768px) {
+    .mapss {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .innermap {
+        display: flex;
+        flex-direction: row !important;
+        align-items: start;
+    }
+}

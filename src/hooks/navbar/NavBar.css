@@ -1,0 +1,98 @@
+.navbar_col {
+    position: fixed;
+    width: 242px;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    padding: 5px 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hamb {
+    color: white;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+.nav_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    transition: transform 0.3s ease;
+}
+
+.menu-open .nav_right {
+    transform: translateX(200px);
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 98;
+    /* Ensure it's behind the off-canvas menu */
+}
+
+.off-canvas-menu {
+    position: fixed;
+    top: 13%;
+    left: 0;
+    width: 240px;
+    /* height: 100%; */
+    background-color: black;
+    padding: 20px;
+    z-index: 99;
+    /* Ensure it's above the backdrop */
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.menu-open .off-canvas-menu {
+    transform: translateX(0);
+}
+
+.off-canvas-menu ul {
+    list-style: none;
+    text-align: center !important;
+    padding: 0;
+    margin: 0;
+}
+
+.off-canvas-menu li {
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #999999;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.off-canvas-menu a:hover,
+.link-custom:hover,
+.off-canvas-menu li:hover{
+    color: #ffffff !important;
+}
+
+
+.off-canvas-menu a,
+.link-custom {
+    color: #999999 !important;
+    text-align: center;
+}
+
+.me-2 {
+    background-color: #171717 !important;
+    color: #999999 !important;
+}
+
+.custom-placeholder::placeholder {
+    color: #999999 !important;
+    font-size: 12px;
+}

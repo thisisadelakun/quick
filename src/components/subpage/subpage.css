@@ -1,0 +1,283 @@
+.brand {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F6F6F6;
+}
+
+.brandheader10,
+.brandheader9,
+.brandheader8,
+.brandheader7,
+.brandheader6,
+.brandheader5,
+.brandheader4,
+.brandheader3,
+.brandheader2,
+.brandheader {
+    background-repeat: no repeat;
+    background-size: cover !important;
+    background-blend-mode: darken !important;
+    background-position: center;
+    padding: 9.55rem 1rem !important;
+}
+
+.brandheader {
+    background-image: url('../../assets/utahseocompany.jpg') !important;
+}
+
+.brandheader2 {
+    background-image: url('../../assets/logos_bg1920.jpg') !important;
+}
+
+.brandheader3 {
+    background-image: url('../../assets/born_digital_1080.jpg');
+}
+
+.brandheader6,
+.brandheader4 {
+    background-image: url('../../assets/underground1920.jpg');
+}
+
+.brandheader8,
+.brandheader5 {
+    background-image: url('../../assets/Fusion-Metal.jpg');
+}
+
+.brandheader9 {
+    background-color: #585151a9;
+    background-image: url('../../assets/F-Icon-1920.png');
+    background-repeat: no repeat;
+    background-size: contain !important;
+    background-position: right !important;
+    padding: 9.55rem 1rem !important;
+}
+
+.brandheader10{
+    background-image: url('../../assets/smoke-600.jpg');
+}
+
+
+.brand h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: left;
+    font-size: 900;
+    width: 95%;
+}
+
+.brandheader7 h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 900;
+    width: 95%;
+}
+
+.videohad {
+    background-image: url('../../assets/furnace.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 6rem 0;
+    margin: auto;
+}
+
+.videohad img {
+    display: flex;
+    margin: auto !important;
+}
+
+.brand ul {
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 1.7;
+    width: 95%;
+    margin: auto;
+}
+
+.branded {
+    background-color: #F6F6F6;
+    padding: 3rem 0;
+}
+
+.emplyment,
+.inters {
+    text-align: left !important;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.brandbody h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.716) !important;
+    font-weight: 600;
+    font-size: 38px !important;
+    margin-bottom: 2rem;
+    text-shadow: none;
+}
+
+.brandbody h5 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #8B0000 !important;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.brandbody h5:hover{
+    color: rgba(0, 0, 0, 0.716) !important;
+}
+
+.brandbody p{
+    line-height: 1.6 !important;
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+
+
+.branded h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.834) !important;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.branded h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.673) !important;
+    font-weight: 400;
+}
+
+.brandbody h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.981) !important;
+    font-weight: 500;
+    margin: 2rem 0rem !important;
+}
+
+.brandbody {
+    padding: 3.5rem 1rem;
+    height: 100%;
+}
+
+.brandbody p {
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 1.7;
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.brand-image {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 95%;
+    margin: 2rem auto;
+    align-items: start;
+}
+
+.navbrand {
+    margin-left: 30px !important;
+}
+
+.checkouts {
+    background-color: #F6F6F6;
+    padding: 3rem 0rem;
+}
+
+.chkout {
+    background-color: #8B0000;
+    padding: 1rem 0;
+}
+
+.chkout h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.chkout h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.vidistext {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    text-decoration: none !important;
+}
+
+.vidia {
+    position: relative;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.custom-play-icon {
+    font-size: 50px;
+    color: #F6F6F6;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+.videolisting {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 1rem;
+    background-image: url('../../assets/F-Icon-1920.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.vidolisting {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.what_we-do p {
+    color: rgba(0, 0, 0, 0.793);
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.what_we-do li {
+    line-height: 2;
+}
+
+@media screen and (min-width:768px) {
+    .brand-image {
+        display: grid;
+        grid-template-columns: 1fr 1.8fr;
+        gap: 5px !important;
+    }
+
+    .vidolisting {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        gap: 1rem;
+    }
+
+    .newbrandbody{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}

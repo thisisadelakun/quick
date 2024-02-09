@@ -1,0 +1,69 @@
+.contact__col {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    gap: 3rem;
+}
+
+.form_inputs {
+    padding: 10px !important;
+    border-radius: none !important;
+    border: none !important;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.form_inputs_txt {
+    padding: 15px !important;
+    border-radius: none !important;
+    border: none !important;
+}
+
+.form_inputs_txt_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact__col h4{
+    color: rgb(80, 79, 79) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+}
+
+
+.formin small {
+    text-align: center;
+}
+
+.btnsub {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    color: black;
+    background-color: #ffffff;
+    padding: 10px;
+    border: none !important;
+}
+
+.btnsub:hover {
+    background-color: #8B0000;
+}
+
+.mediaicon{
+    color: #8B0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    gap: 3rem;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    /* grid-area: 5px; */
+}
